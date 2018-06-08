@@ -18,3 +18,8 @@ int QmlGateway::textWidth(const QFont &font, const QString &text) const
 {
     return QFontMetrics(font).width(text);
 }
+
+void QmlGateway::beginAuth()
+{
+
+}

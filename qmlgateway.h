@@ -43,7 +43,7 @@ public:
      * Return width of text drawed with font
      **/
     Q_INVOKABLE int textWidth(const QFont &font, const QString &text) const;
-
+   Q_INVOKABLE void beginAuth(); //Функция C++ вызываемая из QML
     //Q_INVOKABLE LocalClient *client() { return &m_client; }
 
 private:
