@@ -191,7 +191,8 @@ Item {
                     style: Qt.createComponent(main.theme + "/ButtonClose.qml");
 
                     onClicked: {
-                        main.authenticateByPassword(login.text, password.text);
+                        //main.authenticateByPassword(login.text, password.text);
+                       Gateway.beginAuth();
                     }
                 }
             }
