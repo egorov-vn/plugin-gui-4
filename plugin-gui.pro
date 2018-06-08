@@ -3,14 +3,23 @@ QML_IMPORT_PATH =
 
 # The .cpp file which was generated for your project. Feel free to hack it.
 HEADERS += \
-    qmlgateway.h
+   qmlgateway.h \
+   sbispluginconnector.h
 
 SOURCES += \
     main.cpp \
     qmlgateway.cpp
 
+INCLUDEPATH += \
+   "C:\\git-tensor\\sbis3-launcher-unmanaged\\SbisPluginConnector\\SbisPluginConnector" \
+   "C:\\git-tensor\\sbis3-launcher-unmanaged\\build-SbisPluginConnector\\bin\\"
 
 RESOURCES += qml.qrc
+
+LIBS += \
+    -L"C:\\git-tensor\\sbis3-launcher-unmanaged\\build-SbisPluginConnector\\bin" -lSbisPluginConnector
+
+#LIBS += L"C:\Qt\4.8.7\bin"
 
 # Installation path
 # target.path =
