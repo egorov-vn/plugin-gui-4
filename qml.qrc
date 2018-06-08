@@ -1,0 +1,78 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Plugin.qml</file>
+        <file>qml/Plugin/Auth.qml</file>
+        <file>qml/Plugin/Settings.qml</file>
+        <file>qml/Plugin/Notices.qml</file>
+        <file>qml/Plugin/Notice.qml</file>
+        <file>qml/Plugin/PageAuth.qml</file>
+        <file>qml/Plugin/PageNotice.qml</file>
+        <file>qml/Plugin/PageNotices.qml</file>
+        <file>qml/Plugin/Head.qml</file>
+        <file>qml/Plugin/Accordion.qml</file>
+        <file>qml/Plugin/AccountChooser.qml</file>
+        <file>qml/Plugin/Navigator.qml</file>
+
+        <file>qml/Plugin/Settings/About.qml</file>
+        <file>qml/Plugin/Settings/Common.qml</file>
+        <file>qml/Plugin/Settings/Diagnostic.qml</file>
+        <file>qml/Plugin/Settings/Network.qml</file>
+        <file>qml/Plugin/Settings/Notifications.qml</file>
+        
+        <file>qml/themes/Palette.qml</file>
+        <file>qml/themes/PaletteValues.qml</file>
+
+        <file>qml/themes/online/ButtonBase.qml</file>
+        <file>qml/themes/online/ButtonClose.qml</file>
+        <file>qml/themes/online/Palette.qml</file>
+        <file>qml/themes/online/TabBarStyle.qml</file>
+        <file>qml/themes/online/ToolBarButtonStyle.qml</file>
+        <file>qml/themes/online/ToolBarStyle.qml</file>
+
+        <file>qml/components/AbstractButton.qml</file>
+        <file>qml/components/Action.qml</file>
+        <file>qml/components/ActionItem.qml</file>
+        <file>qml/components/Button.qml</file>
+        <file>qml/components/CheckBox.qml</file>
+        <file>qml/components/CheckBoxGroup.qml</file>
+        <file>qml/components/Icon.qml</file>
+        <file>qml/components/ElementTextEdit.qml</file>
+        <file>qml/components/Link.qml</file>
+        <file>qml/components/PageCollector.qml</file>
+        <file>qml/components/PropertyItem.qml</file>
+        <file>qml/components/PropertyList.qml</file>
+        <file>qml/components/RadioGroup.qml</file>
+        <file>qml/components/RadioButton.qml</file>
+        <file>qml/components/Scrollbar.qml</file>
+        <file>qml/components/StackItem.qml</file>
+        <file>qml/components/Storage.qml</file>
+        <file>qml/components/StyledItem.qml</file>
+        <file>qml/components/Tab.qml</file>
+        <file>qml/components/TabBar.qml</file>
+        <file>qml/components/Tabs.qml</file>
+        <file>qml/components/WindowCommon.qml</file>
+
+        <file>resources/images/bullet_green_sq.png</file>
+        <file>resources/images/areaCloseButton.png</file>
+        <file>resources/images/ajax-loader-indicator.gif</file>
+        <file>resources/images/profile.png</file>
+        <file>resources/images/logo.png</file>
+        <file>resources/images/BackArrowOrange.png</file>
+        <file>resources/images/scheme.png</file>
+
+        <file>resources/images/auth/bg.jpg</file>
+        <file>resources/images/auth/btn.png</file>
+
+        <file>resources/fonts/sbis-mobile-icons.ttf</file>
+        <file>resources/fonts/cbuc-icons.ttf</file>
+        <file>resources/fonts/TensorFont.ttf</file>
+        <file>resources/fonts/TensorFontItalic.ttf</file>
+        <file>resources/fonts/TensorFontBold.ttf</file>
+        <file>resources/fonts/TensorFontBoldItalic.ttf</file>
+
+        <file>config/accordion.js</file>
+        <file>config/settings.js</file>
+        <file>config/noticeTypes.js</file>
+    
+    </qresource>
+</RCC>
