@@ -1,18 +1,19 @@
 # Additional import path used to resolve QML modules in Creator's code model
 QML_IMPORT_PATH =
 
+INCLUDEPATH += "C:\\git-tensor\\sbis3-launcher-unmanaged\\SbisPluginConnector\\SbisPluginConnector"
+INCLUDEPATH += "C:\\git-tensor\\sbis3-launcher-unmanaged\\SbisPluginConnector\\implementation"
+INCLUDEPATH += "C:\\git-tensor\\sbis3-launcher-unmanaged\\build-SbisPluginConnector\\bin"
+
 # The .cpp file which was generated for your project. Feel free to hack it.
 HEADERS += \
    qmlgateway.h \
-   sbispluginconnector.h
+   sbispluginconnector.h \
+   tools.h
 
 SOURCES += \
     main.cpp \
     qmlgateway.cpp
-
-INCLUDEPATH += \
-   "C:\\git-tensor\\sbis3-launcher-unmanaged\\SbisPluginConnector\\SbisPluginConnector" \
-   "C:\\git-tensor\\sbis3-launcher-unmanaged\\build-SbisPluginConnector\\bin\\"
 
 RESOURCES += qml.qrc
 

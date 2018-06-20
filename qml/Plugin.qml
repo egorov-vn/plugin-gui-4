@@ -52,7 +52,6 @@ Item {
 
     function authenticateByPassword(login, password) {
         main.isAuth = true;
-       //main.
     }
 
     function authenticateByCert() {
