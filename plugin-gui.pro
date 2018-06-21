@@ -8,9 +8,9 @@ INCLUDEPATH += "C:\\git-tensor\\sbis3-launcher-unmanaged\\SbisPluginConnector"
 INCLUDEPATH += "C:\\git-tensor\\sbis3-launcher-unmanaged\\SbisPluginConnector\\SbisPluginConnector"
 INCLUDEPATH += "C:\\git-tensor\\sbis3-launcher-unmanaged\\SbisPluginConnector\\implementation"
 INCLUDEPATH += "C:\\git-tensor\\sbis3-launcher-unmanaged\\build-SbisPluginConnector\\bin"
-##INCLUDEPATH += "C:\\git-code\\jsoncpp\\dist"
 INCLUDEPATH += "C:\\git-code\\jsoncpp\\include"
-#INCLUDEPATH += "C:\\env\\SBISPlatformSDK_318350\\include\\"
+INCLUDEPATH += "C:\\env\\SBISPlatformSDK_318350\\include"
+INCLUDEPATH += "C:\\env\\Boost_1_53"
 
 # The .cpp file which was generated for your project. Feel free to hack it.
 HEADERS += \
