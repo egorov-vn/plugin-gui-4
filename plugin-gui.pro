@@ -12,6 +12,9 @@ INCLUDEPATH += "C:\\git-code\\jsoncpp\\include"
 INCLUDEPATH += "C:\\env\\SBISPlatformSDK_318350\\include"
 INCLUDEPATH += "C:\\env\\Boost_1_53"
 
+DEPENDPATH += "C:\\env\\SBISPlatformSDK_318350\\bin\\windows\\i686\\mingw\\any"
+DEPENDPATH += "C:\\env\\SBISPlatformSDK_318350\\bin\windows\\i686\\mingw\\debug"
+
 # The .cpp file which was generated for your project. Feel free to hack it.
 HEADERS += \
    qmlgateway.h \
@@ -33,7 +36,9 @@ SOURCES += \
 RESOURCES += qml.qrc
 
 LIBS += \
-    -L"C:\\git-tensor\\sbis3-launcher-unmanaged\\build-SbisPluginConnector\\bin" -lSbisPluginConnector
+   -L"C:\\git-tensor\\sbis3-launcher-unmanaged\\build-SbisPluginConnector\\bin" -lSbisPluginConnector \
+   -L"C:\\env\\SBISPlatformSDK_318350\\bin\\windows\\i686\\mingw\\debug" -lsbis-rpc300 \
+   -L"C:\\env\\SBISPlatformSDK_318350\\bin\\windows\\i686\\mingw\\debug" -lsbis-lib300
 
 #LIBS += L"C:\Qt\4.8.7\bin"
 

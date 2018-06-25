@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.6.1, 2018-06-21T10:10:52. -->
+<!-- Written by QtCreator 4.6.1, 2018-06-22T09:26:13. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -115,7 +115,7 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
-     <value type="QString">Path=C:\env\MinGWDev\MinGW-w64\i686-4.8.3-win32-dwarf-rt_v3-rev2\mingw32\bin;C:\Qt\4.8.7\bin;C:\env\MinGWDev\MinGW-w64\i686-4.8.3-win32-dwarf-rt_v3-rev2\mingw32\bin;C:\env\Python33\;C:\PVSW\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\env\nodejs\;C:\env\Git\cmd;C:\env\PuTTY\;C:\env\MinGWDev\MinGW-w64\i686-4.8.3-win32-dwarf-rt_v3-rev2\mingw32\bin;C:\env\MinGWDev\CMake\bin;C:\env\MinGWDev\Ninja;C:\env\MinGWDev\Conan;C:\env\Git LFS;C:\Program Files\TortoiseGit\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Programs\Fiddler;C:\Qt\4.8.7\bin</value>
+     <value type="QString">Path=C:\env\MinGWDev\MinGW-w64\i686-4.8.3-win32-dwarf-rt_v3-rev2\mingw32\bin;C:\Qt\4.8.7\bin;C:\env\MinGWDev\MinGW-w64\i686-4.8.3-win32-dwarf-rt_v3-rev2\mingw32\bin;C:\env\Python33\;C:\PVSW\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\env\nodejs\;C:\env\Git\cmd;C:\env\PuTTY\;C:\env\MinGWDev\MinGW-w64\i686-4.8.3-win32-dwarf-rt_v3-rev2\mingw32\bin;C:\env\MinGWDev\CMake\bin;C:\env\MinGWDev\Ninja;C:\env\MinGWDev\Conan;C:\env\Git LFS;C:\Program Files\TortoiseGit\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Programs\Fiddler;C:\Qt\4.8.7\bin;C:\env\SBISPlatformSDK_318350\bin\windows\i686\mingw\any;C:\env\SBISPlatformSDK_318350\bin\windows\i686\mingw\debug</value>
     </valuelist>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Отладка</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Отладка</value>
